@@ -360,3 +360,34 @@ footer .container {
 .copyright {
     color: white;
 }
+@media screen and (max-width:1300px) {
+    h3 {
+        display: block;
+        font-size: 0.95em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    nav ul {
+        nav ul {
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            list-style: none;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+        }
+    }
+    nav ul li a {
+        font-size: 7px;
+        padding: 0 15px;
+        color: white;
+        transition: 0.2s;
+        text-transform: uppercase;
+    }
+    
+}
