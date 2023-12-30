@@ -360,7 +360,7 @@ footer .container {
 .copyright {
     color: white;
 }
-@media screen and (max-width:1300px) {
+@media screen and (max-width:600px) {
     h3 {
         display: block;
         font-size: 0.95em;
@@ -372,6 +372,7 @@ footer .container {
     }
     nav ul {
         nav ul {
+            width: 100vw;
             display: flex;
             align-items: center;
             padding: 0 10%;
